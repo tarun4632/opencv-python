@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-video_capture = cv2.VideoCapture(r"C:\Users\hp\Downloads\Test_Video.mp4") #importing the video in the file
+video_capture = cv2.VideoCapture(r"Resources/Test_Video.mp4") #importing the video in the file
 
 background_subtractor = cv2.createBackgroundSubtractorMOG2() #creating an object for background substraction
 
